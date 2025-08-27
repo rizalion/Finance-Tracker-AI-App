@@ -1,0 +1,41 @@
+[versions]
+appcompat = "1.6.1"
+material = "1.9.0"
+constraintlayout = "2.1.4"
+activity = "1.8.0"
+room = "2.5.2"
+tensorflow-lite = "2.12.0"
+mpandroidchart = "v3.1.0"
+junit = "4.13.2"
+ext-junit = "1.1.5"
+espresso-core = "3.5.1"
+kotlin-stdlib = "1.8.22"  # Added Kotlin version
+
+[libraries]
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+
+# Room components
+room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+
+# TensorFlow Lite
+tensorflow-lite = { group = "org.tensorflow", name = "tensorflow-lite", version.ref = "tensorflow-lite" }
+
+# MPAndroidChart
+mpandroidchart = { group = "com.github.PhilJay", name = "MPAndroidChart", version.ref = "mpandroidchart" }
+
+# Testing
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "ext-junit" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso-core" }
+
+# Kotlin libraries
+kotlin-stdlib = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib", version.ref = "kotlin-stdlib" }
+kotlin-stdlib-jdk7 = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib-jdk7", version.ref = "kotlin-stdlib" }
+kotlin-stdlib-jdk8 = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib-jdk8", version.ref = "kotlin-stdlib" }
+
+[plugins]
+android-application = { id = "com.android.application", version = "8.9.0" }

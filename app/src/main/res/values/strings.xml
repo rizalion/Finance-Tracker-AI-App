@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Finance Tracker</string>
+
+    <string-array name="expense_categories">
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Entertainment</item>
+        <item>Bills</item>
+        <item>Shopping</item>
+    </string-array>
+
+
+
+    <string-array name="days_of_week">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+</resources>
