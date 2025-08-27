@@ -1,4 +1,4 @@
-# 💰 Finance Tracker App
+# 💰 Finance Tracker AI App
 
 A personal expense management mobile application developed in **Java** using **Android Studio**. The app helps users manage daily expenses, visualize spending, and predict future expenses using **AI (TensorFlow Lite)**.
 
